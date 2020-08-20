@@ -3,7 +3,8 @@
 
 class PortfolioModel
 {
-    public function all(){
+    public function all(): array
+    {
         return [
             [
                 'title' => 'Google',

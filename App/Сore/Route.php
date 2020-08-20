@@ -25,7 +25,7 @@ class Route
 
         $controllerName = $controllerName . 'Controller';
         $actionName = 'action_' . $actionName;
-        $modelName =  $modelName . 'Model';
+        $modelName = $modelName . 'Model';
         $modelPath = 'App/Models/' . $modelName . '.php';
 
         if (file_exists($modelPath)) {

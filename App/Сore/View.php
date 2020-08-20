@@ -7,4 +7,5 @@ class View
     {
         include_once 'App/Views/' . $templateView;
     }
+    
 }

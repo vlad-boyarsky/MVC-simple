@@ -1,5 +1,5 @@
 <ul>
-    <li>email : blog_author@gmail.com</li>
-    <li>phone : +38091-111-11-11</li>
-    <li>Address : Odessa, Ukraine</li>
+    <li>email : city@gmail.com</li>
+    <li>phone : +734313511</li>
+    <li>Address :  Assey №256</li>
 </ul>

@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -22,7 +22,7 @@
 </div>
 
 <div>
-    <p>SUPER PERSONAL BLOG (c) 2019 </p>
+    <p>MVC simple system 2020 (c) </p>
 </div>
 
 </body>

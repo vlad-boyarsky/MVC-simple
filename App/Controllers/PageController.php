@@ -14,6 +14,6 @@ class PageController extends Controller
 
     public function action_about_us(): void
     {
-        echo 'Hey I am About us page';
+        echo 'About us page';
     }
 }
