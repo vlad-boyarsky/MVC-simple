@@ -1,7 +1,7 @@
 <?php
 
 
-class Controller_Portfolio extends Controller
+class _PortfolioController extends Controller
 {
     public function __construct()
     {

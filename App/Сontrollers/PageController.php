@@ -1,7 +1,7 @@
 <?php
 
 
-class Controller_Page extends Controller
+class _PageController extends Controller
 {
     public function action_index(){
         $this->view->generateView('homepage',
