@@ -1,7 +1,7 @@
 <?php
 
 
-class Model_Portfolio
+class PortfolioModel
 {
     public function all(){
         return [

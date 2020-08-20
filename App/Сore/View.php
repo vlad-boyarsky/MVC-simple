@@ -3,9 +3,8 @@
 class View
 {
 
-    public function generateView($contentView, $templateView, $data = [])
+    public function generateView($contentView, $templateView, $data = []): void
     {
-
-        include_once 'application/views/' . $templateView;
+        include_once 'App/Views/' . $templateView;
     }
 }

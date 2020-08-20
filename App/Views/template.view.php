@@ -8,22 +8,22 @@
     <title>Document</title>
 </head>
 <body>
-    <div>
-        <ul>
-            <li><a href="/">Homepage</a></li>
-            <li><a href="/Page/contacts">Contacts</a></li>
-            <li><a href="/Page/about_us">About us</a></li>
-            <li><a href="/Portfolio">Portfolio</a></li>
-        </ul>
-    </div>
+<div>
+    <ul>
+        <li><a href="/">Homepage</a></li>
+        <li><a href="/page/contacts">Contacts</a></li>
+        <li><a href="/page/about_us">About us</a></li>
+        <li><a href="/portfolio">Portfolio</a></li>
+    </ul>
+</div>
 
-    <div class="content">
-        <?php include_once 'application/views/'.$contentView.'_view.php'?>
-    </div>
+<div class="content">
+    <?php include_once 'App/Views/' . $contentView . '.view.php' ?>
+</div>
 
-    <div>
-        <p>SUPER PERSONAL BLOG (c) 2019 </p>
-    </div>
+<div>
+    <p>SUPER PERSONAL BLOG (c) 2019 </p>
+</div>
 
 </body>
 </html>
