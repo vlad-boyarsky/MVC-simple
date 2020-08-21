@@ -8,7 +8,7 @@ class PortfolioController extends Controller
         $this->model = new PortfolioModel;
     }
 
-    public function action_index()
+    public function action_index(): void
     {
         $data = [];
         $data['works'] = $this->model->all();

@@ -9,12 +9,12 @@ class PortfolioModel
             [
                 'title' => 'Google',
                 'url' => 'https://google.com',
-                'description' => 'We created searching system'
+                'description' => 'New Browser search system'
             ],
             [
                 'title' => 'Facebook',
                 'url' => 'https://facebook.com',
-                'description' => 'We created social system'
+                'description' => 'Meet your friends'
             ]
         ];
     }
