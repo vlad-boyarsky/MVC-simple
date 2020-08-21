@@ -37,7 +37,8 @@ class Route
         if (file_exists($controllerPath)) {
             require $controllerPath;
         } else {
-            die('NOT FOUND');
+            header("Location:/404.php");
+            die();
         }
 
         $controller = new $controllerName;
@@ -45,7 +46,8 @@ class Route
         if (method_exists($controller, $actionName)) {
             $controller->$actionName();
         } else {
-            die('NOT FOUND');
+            header("Location:/404.php");
+            die();
         }
     }
 }
